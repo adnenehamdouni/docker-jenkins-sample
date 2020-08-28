@@ -10,7 +10,7 @@ node {
              * Run some tests which require MySQL, and assume that it is
              * available on the host name `db`
              */
-	    sh 'sudo yum install build-essential'
+	    sh 'yum install make'
             sh 'make check'
         }
     }
